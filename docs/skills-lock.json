@@ -1,0 +1,237 @@
+﻿{
+    "schema_version":  1,
+    "skills":  [
+                   {
+                       "name":  "frontend-design",
+                       "kind":  "third-party",
+                       "package_path":  ".agents/skills/frontend-design",
+                       "install_path":  ".agents/skills/frontend-design",
+                       "source":  "https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/frontend-design",
+                       "commit":  "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+                       "version":  null,
+                       "files":  [
+                                     {
+                                         "path":  "LICENSE.txt",
+                                         "sha256":  "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+                                     },
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "83ed48ea2132b2e99aeb927393670fb760bc0ca92e5f3610fc4f120f89cf8cf8"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "web-design-guidelines",
+                       "kind":  "third-party",
+                       "package_path":  ".agents/skills/web-design-guidelines",
+                       "install_path":  ".agents/skills/web-design-guidelines",
+                       "source":  "https://github.com/vercel-labs/agent-skills/tree/063bee94c3f4df8453406c830b0a7df0f2860278/skills/web-design-guidelines",
+                       "commit":  "063bee94c3f4df8453406c830b0a7df0f2860278",
+                       "version":  null,
+                       "files":  [
+                                     {
+                                         "path":  "_upstream/README.md",
+                                         "sha256":  "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651"
+                                     },
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "9e9278e04bd17097c319b046e4685b721bb3d1b05732a3f8a698ec2f3bdc61d3"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "playwright",
+                       "kind":  "third-party",
+                       "package_path":  ".agents/skills/playwright",
+                       "install_path":  ".agents/skills/playwright",
+                       "source":  "https://github.com/openai/skills/tree/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/playwright",
+                       "commit":  "49f948faa9258a0c61caceaf225e179651397431",
+                       "version":  null,
+                       "files":  [
+                                     {
+                                         "path":  "agents/openai.yaml",
+                                         "sha256":  "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230"
+                                     },
+                                     {
+                                         "path":  "assets/playwright-small.svg",
+                                         "sha256":  "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732"
+                                     },
+                                     {
+                                         "path":  "assets/playwright.png",
+                                         "sha256":  "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381"
+                                     },
+                                     {
+                                         "path":  "LICENSE.txt",
+                                         "sha256":  "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda"
+                                     },
+                                     {
+                                         "path":  "NOTICE.txt",
+                                         "sha256":  "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b"
+                                     },
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "020b523f3fb29042ad935a591a1477f3022165e759763348570229f0edb8f908"
+                                     },
+                                     {
+                                         "path":  "references/cli.md",
+                                         "sha256":  "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900"
+                                     },
+                                     {
+                                         "path":  "references/workflows.md",
+                                         "sha256":  "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2"
+                                     },
+                                     {
+                                         "path":  "scripts/playwright_cli.sh",
+                                         "sha256":  "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "visual-quality-review",
+                       "kind":  "local",
+                       "package_path":  ".agents/skills/visual-quality-review",
+                       "install_path":  ".agents/skills/visual-quality-review",
+                       "source":  "Authored for this workspace; not an official vendor skill",
+                       "commit":  null,
+                       "version":  "1.0.0",
+                       "files":  [
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "ae34049ab82607d88c42473f5d6a05ac04f9371d260322bf3c4cffc3619d51a7"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "3abc655d5b67eb98569d5096542d8b8c4182762d0075f21924e9c9c5d7c402b1"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "fullstack-validation",
+                       "kind":  "local",
+                       "package_path":  ".agents/skills/fullstack-validation",
+                       "install_path":  ".agents/skills/fullstack-validation",
+                       "source":  "Authored for this workspace; not an official vendor skill",
+                       "commit":  null,
+                       "version":  "1.0.0",
+                       "files":  [
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "547c58184de7eec59b428cf1411313ec3091a85f5837e51a43676472f92263b5"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "6ce748a47341a2b900d4ef28ca953eb45f534474928134937d358c2a14d63f8a"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "api-and-integration",
+                       "kind":  "local",
+                       "package_path":  ".agents/skills/api-and-integration",
+                       "install_path":  ".agents/skills/api-and-integration",
+                       "source":  "Authored for this workspace; not an official vendor skill",
+                       "commit":  null,
+                       "version":  "1.0.0",
+                       "files":  [
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "154de1aac0ef87e706658a7bb6d74c9dae25dddcc4154a10665281d1cd460355"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "250a05e7a9150e3c0e89a4f8c815987bcbf14060c073340f6212c06de5200811"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "environment-recovery",
+                       "kind":  "local",
+                       "package_path":  ".agents/skills/environment-recovery",
+                       "install_path":  ".agents/skills/environment-recovery",
+                       "source":  "Authored for this workspace; not an official vendor skill",
+                       "commit":  null,
+                       "version":  "1.0.0",
+                       "files":  [
+                                     {
+                                         "path":  "provenance.json",
+                                         "sha256":  "aa183a9ea567f3b0dd42fbe0b5d4ea5b167607f43e89beba23573a6d40519641"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "0a17d80d590e3cf056f3f5c06af0b9103733c7f95f8aaa47199a120dd0976fbc"
+                                     }
+                                 ]
+                   },
+                   {
+                       "name":  "imagegen",
+                       "kind":  "third-party",
+                       "source":  "Installed OpenAI Codex system imagegen skill, unmodified snapshot 2026-10-25",
+                       "commit":  null,
+                       "version":  "snapshot-2026-10-25",
+                       "package_path":  ".agents/skills/imagegen",
+                       "install_path":  ".agents/skills/imagegen",
+                       "files":  [
+                                     {
+                                         "path":  "LICENSE.txt",
+                                         "sha256":  "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc"
+                                     },
+                                     {
+                                         "path":  "SKILL.md",
+                                         "sha256":  "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4"
+                                     },
+                                     {
+                                         "path":  "agents/openai.yaml",
+                                         "sha256":  "1797be4076717806df54aa9331c07ac8eebe32c69f32132d5858712b05406146"
+                                     },
+                                     {
+                                         "path":  "assets/imagegen-small.svg",
+                                         "sha256":  "087c1632a3b8a2ed4d6218952e7ba7ae2221a979f84233667ed2c587998784da"
+                                     },
+                                     {
+                                         "path":  "assets/imagegen.png",
+                                         "sha256":  "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20"
+                                     },
+                                     {
+                                         "path":  "references/cli.md",
+                                         "sha256":  "29dc8c1e3e5d9a20aee587fedb46a464552b6ec118d93bbd90c8d86e30502c8c"
+                                     },
+                                     {
+                                         "path":  "references/codex-network.md",
+                                         "sha256":  "cba3b4d24d30f38adf8021b6e9b49ec5261a9e45e7df31047ec451c916c99b0a"
+                                     },
+                                     {
+                                         "path":  "references/image-api.md",
+                                         "sha256":  "695909437b792aff171477dba127476a11235c220beb06533cce7c1495a042c8"
+                                     },
+                                     {
+                                         "path":  "references/prompting.md",
+                                         "sha256":  "d957a45cb24fe2cf1a85858674fc533f15a5f4621355f559a13a93168999c2dd"
+                                     },
+                                     {
+                                         "path":  "references/sample-prompts.md",
+                                         "sha256":  "76cc8a2988efb6e844a99ff9908b2b11cc07467510fc909002abcc0ee3f0701b"
+                                     },
+                                     {
+                                         "path":  "scripts/image_gen.py",
+                                         "sha256":  "3666b807de3f0a1d0a4a767b886d612c0b8f71025c500bba6693d1c6995a0873"
+                                     },
+                                     {
+                                         "path":  "scripts/remove_chroma_key.py",
+                                         "sha256":  "fa2989807052b857bed08f7fee0caa2502b54c46afc0a6f28cd706c25f636630"
+                                     }
+                                 ]
+                   }
+               ]
+}

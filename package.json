@@ -1,0 +1,12 @@
+{
+  "name": "ww-kima",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Демонстрационный сайт грузинского ресторана «Золотая Лоза»",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "check": "node scripts/verify.mjs"
+  }
+}

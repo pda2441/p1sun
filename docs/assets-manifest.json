@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "created": "2026-10-25",
+  "files": [
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "9a20fcb5b9d2b226b537efe9f5535c192c40e8a84da184a81f686dced5552149"
+    },
+    {
+      "path": "assets/fonts/cormorant-garamond.ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "path": "assets/fonts/manrope.ttf",
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "path": "assets/fonts/OFL-CormorantGaramond.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "path": "assets/fonts/OFL-Manrope.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "assets/images/adjaruli.jpg",
+      "sha256": "898ea3d72d23da45c54545cb97a8bc27d1b5405c1cdf64739614fe54a33bc369"
+    },
+    {
+      "path": "assets/images/badrijani.jpg",
+      "sha256": "3558f1cf9869c4a89774f0ded50374c07bafde1b09d4da2d435936572a916f1c"
+    },
+    {
+      "path": "assets/images/churchkhela.jpg",
+      "sha256": "cb78c4ae0e8b37ed6cd48aa88a074ebe1a46fa2d766cb418db4c97a1305ffe21"
+    },
+    {
+      "path": "assets/images/detail.jpg",
+      "sha256": "80dad6bf65eb98f6fbad3f486748bb962cfe149e5f6302d48e1a6e8dbec34a70"
+    },
+    {
+      "path": "assets/images/hero.jpg",
+      "sha256": "898ea3d72d23da45c54545cb97a8bc27d1b5405c1cdf64739614fe54a33bc369"
+    },
+    {
+      "path": "assets/images/interior.jpg",
+      "sha256": "d8406e9de89a20575c1b2f226f49cb6bfc643fa2d7f824b14d6ff53d74b65e75"
+    },
+    {
+      "path": "assets/images/khinkali.jpg",
+      "sha256": "4416ed378a960e9da55fbcf6f30031cf5ee7f673355c163efcd1b621aa9c230a"
+    },
+    {
+      "path": "assets/images/lemonade.jpg",
+      "sha256": "dd971bf583b5cb43af256b5ad8a3ad056d2cc0ef63d00bf1437c08770e9784a7"
+    },
+    {
+      "path": "assets/images/lobio.jpg",
+      "sha256": "69eebc43d2d75be674097d729743f176584d9b537b32ce54ea5b3654f130a96e"
+    },
+    {
+      "path": "assets/images/medovik.jpg",
+      "sha256": "c53d69a93aa8eec12abcd86e33c6224a46cf85fd458317b7f34cce3acde6c4fa"
+    },
+    {
+      "path": "assets/images/megruli.jpg",
+      "sha256": "69aaf7b04ff232566ead96fa72babf07797c2686e9c5294d6e9bf93ae29fcc31"
+    },
+    {
+      "path": "assets/images/ojakhuri.jpg",
+      "sha256": "1ad3243d0c1357c6da35f488fbe708e710bdce6a4c7321fc6ca70c45ca504379"
+    },
+    {
+      "path": "assets/images/pkhali.jpg",
+      "sha256": "6a10c7924766e6aed2ed5db31b5be6eee2564031d3d0921da3ff4a8da69538da"
+    },
+    {
+      "path": "assets/images/salad.jpg",
+      "sha256": "bad37398a52e6a1bcd8797cca619bf293b85465780c7b7c22a1e706631c2011c"
+    },
+    {
+      "path": "assets/images/satsivi.jpg",
+      "sha256": "2cdd87c82059c0c7553b638c6d6c3967855af714fa3b1fc8be95eaba97a81db3"
+    },
+    {
+      "path": "assets/images/table.jpg",
+      "sha256": "6eccca574bee9797a233aea7cef4d5df84b9894ed8a796ece311ed47f131e291"
+    }
+  ]
+}

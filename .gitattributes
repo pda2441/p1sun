@@ -1,0 +1,2 @@
+# Preserve original bytes: bundled resources and instructions have SHA-256 manifests.
+* -text

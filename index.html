@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3eb">
+  <title>Золотая Лоза — Грузия ближе, чем кажется</title>
+  <meta name="description" content="Золотая Лоза — концепция уютного ресторана грузинской кухни. Исследуйте демонстрационное меню, атмосферу и интерактивную форму бронирования.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Золотая Лоза — Грузия ближе, чем кажется">
+  <meta property="og:description" content="Горячий хлеб. Долгие разговоры. Щедрый стол. Демонстрационный проект грузинского ресторана.">
+  <meta property="og:image" content="/assets/images/hero.jpg">
+  <meta property="og:image:alt" content="Хачапури по-аджарски на тёплом грузинском столе">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/cormorant-garamond.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="js/app.js" type="module"></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Перейти к содержимому</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="fruit" viewBox="0 0 60 72"><path d="m22 18-3-10 10 6L36 3l4 12 11-4-5 13C64 43 52 65 33 67 11 66 1 41 16 25Z" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M26 23c-12 7-15 27 1 36M42 26c8 9 7 22-1 30" fill="none" stroke="currentColor"/><g fill="currentColor"><ellipse cx="29" cy="32" rx="2" ry="3"/><ellipse cx="37" cy="33" rx="2" ry="3"/><ellipse cx="25" cy="41" rx="2" ry="3"/><ellipse cx="33" cy="42" rx="2" ry="3"/><ellipse cx="41" cy="42" rx="2" ry="3"/><ellipse cx="28" cy="51" rx="2" ry="3"/><ellipse cx="36" cy="52" rx="2" ry="3"/></g></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="sprig" viewBox="0 0 160 180"><g fill="none" stroke="currentColor" stroke-width="1.2"><path d="M19 166C64 122 100 69 123 8M65 111C40 91 27 66 23 39m63 44c27 0 45-12 58-33M43 141c-8-18-22-23-35-22"/><path d="M45 131C19 122 9 102 12 79c22 11 34 26 33 52Zm21-23C44 97 40 73 45 55c19 15 26 33 21 53Zm21-31c-19-9-23-29-16-48 15 11 20 29 16 48Zm19-37c-10-14-10-28 1-39 8 13 7 25-1 39ZM56 125c22 2 44-11 48-30-23 1-39 11-48 30Zm33-40c19-1 34-13 36-31-18 4-30 14-36 31Zm25-47c17 0 30-12 32-26-16 2-28 12-32 26Z" fill="currentColor" fill-opacity=".1"/></g></symbol>
+  </defs></svg>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Золотая Лоза — главная" translate="no"><span class="brand-name">Золотая Лоза<svg aria-hidden="true"><use href="#fruit"/></svg></span><span class="brand-caption">грузинский ресторан</span></a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть навигацию"><span></span><span></span></button>
+      <nav id="main-nav" aria-label="Основная навигация">
+        <a href="#home" aria-current="page">Главная</a><a href="#menu">Меню</a><a href="#atmosphere">Атмосфера</a><a href="#booking" class="mobile-booking">Бронирование</a>
+      </nav>
+      <a class="button button-wine header-booking" href="#booking">Забронировать стол</a>
+    </div>
+    <div id="scroll-progress" aria-hidden="true"></div>
+  </header>
+  <main id="main-content" tabindex="-1">
+    <section id="home" data-page="home" aria-labelledby="home-heading">
+      <div class="hero">
+        <div class="hero-image"><img src="assets/images/hero.jpg" alt="Золотистый хачапури по-аджарски с сыром и яичным желтком" width="1600" height="1200" fetchpriority="high" data-parallax></div>
+        <div class="hero-copy">
+          <p class="hero-intro">По-грузински щедро. По-домашнему тепло.</p>
+          <h1 id="home-heading" class="page-heading" tabindex="-1">Грузия ближе,<br>чем кажется.</h1>
+          <p class="hero-description">Горячий хлеб. Долгие разговоры.<br>Щедрый стол, за которым ждут именно вас.</p>
+          <div class="hero-actions"><a class="button button-wine" href="#menu">Смотреть меню<svg aria-hidden="true"><use href="#arrow"/></svg></a><a class="button button-outline" href="#booking">Забронировать стол</a></div>
+        </div>
+        <svg class="hero-fruit" aria-hidden="true"><use href="#fruit"/></svg>
+        <span class="hero-handwritten" aria-hidden="true">Вкус настоящей<br>Грузии</span>
+      </div>
+      <div class="ribbon" aria-hidden="true"><svg><use href="#sprig"/></svg><span>Хинкали</span><i>✦</i><span>Хачапури</span><i>✦</i><span>Долгие разговоры</span><i>✦</i><span>Гостеприимство</span><svg><use href="#sprig"/></svg></div>
+      <section class="favorites section-shell reveal" aria-labelledby="favorites-heading">
+        <div class="section-top"><div><p class="section-kicker">За одним столом</p><h2 id="favorites-heading">Начнём с любимого</h2></div><a class="text-link" href="#menu">Всё меню<svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+        <div class="favorites-note"><p>То, ради чего стоит<br>собраться вместе.</p><svg aria-hidden="true"><use href="#sprig"/></svg></div>
+        <div id="favorites-grid" class="dish-grid favorites-grid"></div>
+        <p class="demo-caption">Составы и цены приведены для демонстрации концепции.</p>
+      </section>
+      <section class="home-story" aria-labelledby="story-heading">
+        <div class="story-image reveal"><img src="assets/images/interior.jpg" alt="Тёплый интерьер грузинского ресторана с деревянными столами и мягким светом" width="1400" height="1100" loading="lazy" data-parallax></div>
+        <div class="story-copy reveal"><svg class="story-sprig" aria-hidden="true"><use href="#sprig"/></svg><p class="section-kicker">Двери открыты, стол накрыт</p><h2 id="story-heading">Здесь каждый —<br>дорогой гость</h2><p>В Грузии гостя встречают как старого друга. С горячим хлебом, щедрыми блюдами и разговорами, которым не хочется ставить точку.</p><p>Таким мы придумали <span translate="no">«Золотую Лозу»</span> — местом, где можно быть собой и никуда не спешить.</p><a class="button button-cream-outline" href="#atmosphere">Почувствовать атмосферу<svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      </section>
+      <section class="booking-invite section-shell reveal" aria-labelledby="invite-heading"><svg class="invite-sprig" aria-hidden="true"><use href="#sprig"/></svg><p class="section-kicker">Хорошая компания всегда к столу</p><h2 id="invite-heading">Оставим место для вас</h2><p>Пусть у этого вечера будет вкусная история.</p><a class="button button-wine" href="#booking">Забронировать стол<svg aria-hidden="true"><use href="#arrow"/></svg></a><p class="demo-caption">Демонстрационный проект. Реальные бронирования не принимаются.</p></section>
+    </section>
+    <section id="menu" data-page="menu" aria-labelledby="menu-heading" hidden>
+      <div class="section-shell menu-shell">
+        <div class="page-intro"><div><p class="section-kicker">Щедрый стол «Золотой Лозы»</p><h1 id="menu-heading" class="page-heading" tabindex="-1">Вкусно быть вместе</h1><p>От первой хинкали до последнего кусочка хачапури.<br>Выбирайте сердцем — и делитесь с близкими.</p></div><svg class="menu-fruit" aria-hidden="true"><use href="#fruit"/></svg></div>
+        <div class="menu-toolbar"><div class="menu-filters" role="group" aria-label="Категории меню"><button type="button" data-category="all" aria-pressed="true">Всё</button><button type="button" data-category="starter" aria-pressed="false">Закуски</button><button type="button" data-category="hot" aria-pressed="false">Горячее</button><button type="button" data-category="oven" aria-pressed="false">Из печи</button><button type="button" data-category="dessert" aria-pressed="false">Десерты</button><button type="button" data-category="drink" aria-pressed="false">Напитки</button></div><p id="menu-count" role="status" aria-live="polite"></p></div>
+        <p class="menu-demo">Демонстрационное меню: рецепты, порции и цены — примеры. Фотографии иллюстрируют концепцию.</p>
+        <div id="menu-grid" class="dish-grid menu-grid"></div>
+        <div class="menu-ending"><svg aria-hidden="true"><use href="#sprig"/></svg><p>Самый важный ингредиент —<br>хорошая компания.</p><a class="text-link" href="#booking">Встретимся за столом<svg aria-hidden="true"><use href="#arrow"/></svg></a></div>
+      </div>
+    </section>
+    <section id="atmosphere" data-page="atmosphere" aria-labelledby="atmosphere-heading" hidden>
+      <div class="section-shell atmosphere-intro page-intro"><div><p class="section-kicker">Больше, чем ужин</p><h1 id="atmosphere-heading" class="page-heading" tabindex="-1">Место тёплых встреч</h1></div><p>Мягкий свет, дерево, знакомые ароматы.<br>И ощущение, что вы уже были здесь —<br>в гостях у близких.</p></div>
+      <div class="gallery section-shell"><button class="gallery-main" type="button" data-gallery="assets/images/interior.jpg" data-caption="Большой зал: тёплый свет, дерево и грузинские детали" aria-label="Открыть фотографию большого зала"><img src="assets/images/interior.jpg" alt="Большой зал с деревянными столами и плетёными светильниками" width="1400" height="1100" loading="lazy"><span class="gallery-label">Место, где хочется остаться<span aria-hidden="true">↗</span></span></button><button class="gallery-secondary" type="button" data-gallery="assets/images/detail.jpg" data-caption="Детали интерьера: арки, дерево и мягкий свет" aria-label="Открыть фотографию деталей интерьера"><img src="assets/images/detail.jpg" alt="Арка и тени оливковых ветвей на тёплой штукатурке" width="1000" height="1100" loading="lazy"><span class="gallery-label">Тепло в деталях<span aria-hidden="true">↗</span></span></button><button class="gallery-table" type="button" data-gallery="assets/images/table.jpg" data-caption="Щедрый грузинский стол для неторопливого вечера" aria-label="Открыть фотографию накрытого стола"><img src="assets/images/table.jpg" alt="Сервированный стол у окна с керамикой и бокалами" width="1400" height="900" loading="lazy"><span class="gallery-label">За долгие разговоры<span aria-hidden="true">↗</span></span></button></div>
+      <section class="concept section-shell reveal"><svg aria-hidden="true"><use href="#fruit"/></svg><div><p class="section-kicker">Наша история начинается с идеи</p><h2>У гостеприимства<br>нет особого повода</h2><p><span translate="no">Золотая Лоза</span> — портфолио-концепция современного грузинского ресторана. Мы представили место, где традиционные рецепты соседствуют с простым удовольствием: собраться, разделить хлеб и услышать друг друга.</p><p>Здесь важны небольшие вещи: хрустящая корочка, красивая тарелка, свет над столом. И большое чувство — вам рады.</p><a class="text-link" href="#booking">Выбрать вечер для встречи<svg aria-hidden="true"><use href="#arrow"/></svg></a></div></section>
+      <p class="atmosphere-disclaimer demo-caption section-shell">Изображения показывают художественную концепцию, а не действующий ресторан.</p>
+    </section>
+    <section id="booking" data-page="booking" aria-labelledby="booking-heading" hidden>
+      <div class="booking-layout section-shell"><div class="booking-copy"><p class="section-kicker">Для своих и будущих своих</p><h1 id="booking-heading" class="page-heading" tabindex="-1">У каждого вечера<br>есть своё место</h1><p>За большим столом или в тихом уголке.<br>Для двоих или всей вашей компании.</p><div class="booking-photo"><img src="assets/images/table.jpg" alt="Сервированный стол в тёплом вечернем свете" width="1000" height="900" loading="lazy"><svg aria-hidden="true"><use href="#sprig"/></svg></div><p class="booking-demo"><strong>Это демонстрация.</strong> Форма позволяет попробовать сценарий бронирования. Данные никуда не отправляются и не сохраняются.</p></div>
+      <form id="booking-form" class="booking-form" novalidate><h2>Оставим место для вас</h2><p class="form-intro">Выберите удобное время для вашего вечера.</p><div class="form-fields">
+        <div class="form-field"><label for="booking-name">Как к вам обращаться <span aria-hidden="true">*</span></label><input id="booking-name" name="name" autocomplete="given-name" required minlength="2" maxlength="60" placeholder="Например, Анна…" aria-describedby="error-name"><span id="error-name" class="field-error"></span></div>
+        <div class="form-field"><label for="booking-phone">Телефон <span aria-hidden="true">*</span></label><input id="booking-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="25" required placeholder="+7 (999) 123-45-67…" aria-describedby="error-phone"><span id="error-phone" class="field-error"></span></div>
+        <div class="field-row"><div class="form-field"><label for="booking-date">Дата <span aria-hidden="true">*</span></label><input id="booking-date" name="date" type="date" required aria-describedby="error-date"><span id="error-date" class="field-error"></span></div><div class="form-field"><label for="booking-time">Время <span aria-hidden="true">*</span></label><select id="booking-time" name="time" required aria-describedby="error-time"><option value="">Выберите</option></select><span id="error-time" class="field-error"></span></div></div>
+        <div class="form-field"><label for="booking-guests">Количество гостей <span aria-hidden="true">*</span></label><select id="booking-guests" name="guests" required aria-describedby="error-guests"><option value="">Выберите количество</option><option value="1">1 гость</option><option value="2">2 гостя</option><option value="3">3 гостя</option><option value="4">4 гостя</option><option value="5">5 гостей</option><option value="6">6 гостей</option><option value="7">7 гостей</option><option value="8">8 гостей</option></select><span id="error-guests" class="field-error"></span></div>
+        <div class="form-field"><label for="booking-comment">Пожелания <span class="optional">необязательно</span></label><textarea id="booking-comment" name="comment" rows="3" maxlength="500" placeholder="Детский стул, особый повод или другие пожелания…" aria-describedby="error-comment"></textarea><span id="error-comment" class="field-error"></span></div>
+      </div><p class="form-required">* Обязательные поля. Доступны даты на ближайшие 90 дней.</p><button class="button button-wine form-submit" type="submit">Проверить демо-заявку<svg aria-hidden="true"><use href="#arrow"/></svg></button><p id="booking-feedback" role="status" aria-live="polite" tabindex="-1"></p></form></div>
+    </section>
+  </main>
+  <footer class="site-footer section-shell"><div class="footer-top"><a class="brand" href="#home" aria-label="Золотая Лоза — главная" translate="no"><span class="brand-name">Золотая Лоза<svg aria-hidden="true"><use href="#fruit"/></svg></span><span class="brand-caption">грузинский ресторан</span></a><nav aria-label="Навигация в подвале"><a href="#home">Главная</a><a href="#menu">Меню</a><a href="#atmosphere">Атмосфера</a><a href="#booking">Бронирование</a></nav><p>С теплом, <span translate="no">Золотая Лоза</span></p></div><div class="footer-bottom"><span>© 2026 Золотая Лоза</span><p>Демонстрационный проект для портфолио.<br>Ресторан, меню и бронирование представлены как концепция.</p><span>Сделано со вкусом</span></div></footer>
+  <dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть диалог"><span aria-hidden="true">×</span></button><div id="dialog-body"></div></dialog>
+  <noscript><div class="noscript-note">Для переключения разделов, подробностей меню и демо-формы включите JavaScript. Главная страница доступна без него.</div></noscript>
+</body>
+</html>

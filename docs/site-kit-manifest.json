@@ -1,0 +1,210 @@
+﻿{
+    "schema_version":  1,
+    "files":  [
+                  {
+                      "path":  ".agents/skills/frontend-design/LICENSE.txt",
+                      "sha256":  "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/frontend-design/provenance.json",
+                      "sha256":  "83ed48ea2132b2e99aeb927393670fb760bc0ca92e5f3610fc4f120f89cf8cf8",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/frontend-design/SKILL.md",
+                      "sha256":  "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/web-design-guidelines/_upstream/README.md",
+                      "sha256":  "7c02f64b08fc6c4eef03c01d64f3e2ed478193ccfcbd14edba379abe23304651",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/web-design-guidelines/provenance.json",
+                      "sha256":  "9e9278e04bd17097c319b046e4685b721bb3d1b05732a3f8a698ec2f3bdc61d3",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/web-design-guidelines/SKILL.md",
+                      "sha256":  "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/agents/openai.yaml",
+                      "sha256":  "ddda43720fc566fffa45264be8f17f7745a3cee28d5245d41d3b963bc9967230",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/assets/playwright-small.svg",
+                      "sha256":  "f1d213c0f76735d8272c3d3e9fbf71fe7b894e2d1588907044c780f2c33a9732",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/assets/playwright.png",
+                      "sha256":  "521669f088c838196c6c852ccc9abdd7234d8f37fc9a8a7a9af7db2d50193381",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/LICENSE.txt",
+                      "sha256":  "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/NOTICE.txt",
+                      "sha256":  "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/provenance.json",
+                      "sha256":  "020b523f3fb29042ad935a591a1477f3022165e759763348570229f0edb8f908",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/references/cli.md",
+                      "sha256":  "7c069a8206ba20b9ddbdc42436b04de30bb3aa4a825ba98680757ee62e954900",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/references/workflows.md",
+                      "sha256":  "a2b5835a00ebee3906c146adf7f764f7718ea3f89a8702d86eaa135dfe0fc8c2",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/scripts/playwright_cli.sh",
+                      "sha256":  "aa3fdff5d0e4556177f4dfd5f04117e772aa54f94b6a2e34b6c0edf629c6b9b5",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/playwright/SKILL.md",
+                      "sha256":  "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/visual-quality-review/provenance.json",
+                      "sha256":  "ae34049ab82607d88c42473f5d6a05ac04f9371d260322bf3c4cffc3619d51a7",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/visual-quality-review/SKILL.md",
+                      "sha256":  "3abc655d5b67eb98569d5096542d8b8c4182762d0075f21924e9c9c5d7c402b1",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/fullstack-validation/provenance.json",
+                      "sha256":  "547c58184de7eec59b428cf1411313ec3091a85f5837e51a43676472f92263b5",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/fullstack-validation/SKILL.md",
+                      "sha256":  "6ce748a47341a2b900d4ef28ca953eb45f534474928134937d358c2a14d63f8a",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/api-and-integration/provenance.json",
+                      "sha256":  "154de1aac0ef87e706658a7bb6d74c9dae25dddcc4154a10665281d1cd460355",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/api-and-integration/SKILL.md",
+                      "sha256":  "250a05e7a9150e3c0e89a4f8c815987bcbf14060c073340f6212c06de5200811",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/environment-recovery/provenance.json",
+                      "sha256":  "aa183a9ea567f3b0dd42fbe0b5d4ea5b167607f43e89beba23573a6d40519641",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/environment-recovery/SKILL.md",
+                      "sha256":  "0a17d80d590e3cf056f3f5c06af0b9103733c7f95f8aaa47199a120dd0976fbc",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".codex/agents/backend.toml",
+                      "sha256":  "40dd8bc6753c93a2691f777f257ddcafd977e0713c3ac8511181ffabb443f855",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".codex/agents/coordinator.toml",
+                      "sha256":  "bd836c9bec49d3e069a0cc09d082fe71b4ec62b067c5cb765f88ef24b7ee038b",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".codex/agents/designer.toml",
+                      "sha256":  "8a671c648a047ddefcf2924efaa96bd3e9d4947b5039a56df6010f6f32106472",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".codex/agents/frontend.toml",
+                      "sha256":  "cace4c32ad876623ca634cf75182f92a1fa57b99494bb2b464dc8b925f142628",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".codex/agents/qa-reviewer.toml",
+                      "sha256":  "1825199a819257c2914cbeb8ec6e2f41f38eaf0275a6aec803cde0307fcd5f63",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/LICENSE.txt",
+                      "sha256":  "44e03f7e263eb3ad256440c1eeab5e49168baff5a78ecef9a5447261cf3a91bc",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/SKILL.md",
+                      "sha256":  "706d4d96e1d5c9e6023fe3ccabba1bb34b364024d344fd25b8515ec7d28fe3c4",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/agents/openai.yaml",
+                      "sha256":  "1797be4076717806df54aa9331c07ac8eebe32c69f32132d5858712b05406146",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/assets/imagegen-small.svg",
+                      "sha256":  "087c1632a3b8a2ed4d6218952e7ba7ae2221a979f84233667ed2c587998784da",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/assets/imagegen.png",
+                      "sha256":  "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/references/cli.md",
+                      "sha256":  "29dc8c1e3e5d9a20aee587fedb46a464552b6ec118d93bbd90c8d86e30502c8c",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/references/codex-network.md",
+                      "sha256":  "cba3b4d24d30f38adf8021b6e9b49ec5261a9e45e7df31047ec451c916c99b0a",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/references/image-api.md",
+                      "sha256":  "695909437b792aff171477dba127476a11235c220beb06533cce7c1495a042c8",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/references/prompting.md",
+                      "sha256":  "d957a45cb24fe2cf1a85858674fc533f15a5f4621355f559a13a93168999c2dd",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/references/sample-prompts.md",
+                      "sha256":  "76cc8a2988efb6e844a99ff9908b2b11cc07467510fc909002abcc0ee3f0701b",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/scripts/image_gen.py",
+                      "sha256":  "3666b807de3f0a1d0a4a767b886d612c0b8f71025c500bba6693d1c6995a0873",
+                      "immutable":  true
+                  },
+                  {
+                      "path":  ".agents/skills/imagegen/scripts/remove_chroma_key.py",
+                      "sha256":  "fa2989807052b857bed08f7fee0caa2502b54c46afc0a6f28cd706c25f636630",
+                      "immutable":  true
+                  }
+              ]
+}

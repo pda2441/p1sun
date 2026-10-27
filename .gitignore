@@ -1,0 +1,12 @@
+node_modules/
+output/
+.npm-cache/
+.env
+.env.*
+!.env.example
+output/playwright/edge-profile/
+output/navigation-browser/
+output/playwright/*.log
+output/playwright/*.pid
+.DS_Store
+Thumbs.db
